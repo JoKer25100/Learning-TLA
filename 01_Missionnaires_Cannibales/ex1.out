@@ -1,0 +1,299 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2026.05.26.235334 (rev: 4ba7d88)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 126 and seed 7144726245144139057 with 1 worker on 16 cores with 1735MB heap and 64MB offheap memory [pid: 36633] (Linux 6.18.33.2-microsoft-standard-WSL2 amd64, Ubuntu 11.0.30 64bit, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/eric/TLA/ex1.tla
+Parsing file /tmp/tlc-14762564013710518933/TLC.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-14762564013710518933/Integers.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file /tmp/tlc-14762564013710518933/_TLCTrace.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-14762564013710518933/Naturals.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-14762564013710518933/Sequences.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-14762564013710518933/FiniteSets.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-14762564013710518933/TLCExt.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.6.242335/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module ex1
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module ex1
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2026-07-16 00:01:44)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2026-07-16 00:01:44.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant NotSolved is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 3, c |-> 3]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 3, c |-> 1]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 3, c |-> 2]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 3, c |-> 0]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 3, c |-> 1]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 1, c |-> 1]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 2, c |-> 2]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 0, c |-> 2]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 0, c |-> 3]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 0, c |-> 1]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Gauche"
+/\ rive_gauche = [m |-> 0, c |-> 2]
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <Next line 76, col 13 to line 104, col 58 of module ex1>
+/\ bateau = "Droite"
+/\ rive_gauche = [m |-> 0, c |-> 0]
+
+@!@!@ENDMSG 2217 @!@!@
+"CounterExample written: /home/eric/TLA/ex1_trace_T2026-07-15_22-01-43_F126_W1_Mbfs.tlc"
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2026-07-16 00:01:44 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<bateau line 56, col 24 to line 56, col 29 of module ex1>: 2
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<rive_gauche line 56, col 11 to line 56, col 21 of module ex1>: 8
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 70, col 1 to line 70, col 4 of module ex1>: 3:3
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 71, col 9 to line 72, col 28 of module ex1: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 74, col 1 to line 74, col 4 of module ex1 (76 13 104 58)>: 14:189
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 16 to line 76, col 45 of module ex1: 189
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 77, col 27 to line 77, col 56 of module ex1: 154
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 38 to line 78, col 54 of module ex1: 114
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 79, col 49 to line 79, col 108 of module ex1: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 79, col 49 to line 79, col 76 of module ex1: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 79, col 81 to line 79, col 108 of module ex1: 60
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 60 to line 80, col 123 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 60, col 5 to line 61, col 44 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 60, col 8 to line 60, col 22 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 60, col 8 to line 60, col 12 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 60, col 17 to line 60, col 22 of module ex1: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 61, col 8 to line 61, col 44 of module ex1: 51
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 61, col 8 to line 61, col 19 of module ex1: 51
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 61, col 25 to line 61, col 44 of module ex1: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 67 to line 80, col 93 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 96 to line 80, col 122 of module ex1: 57
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 68 to line 81, col 85 of module ex1: 37
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 68 to line 83, col 116 of module ex1: 37
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 98 to line 83, col 116 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 68 to line 84, col 71 of module ex1: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 85, col 68 to line 86, col 89 of module ex1: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 87, col 57 to line 87, col 60 of module ex1: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 57 to line 89, col 78 of module ex1: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 49 to line 90, col 122 of module ex1: 51
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 49 to line 90, col 83 of module ex1: 51
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 88 to line 90, col 122 of module ex1: 41
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 60 to line 91, col 123 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 60, col 5 to line 61, col 44 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 60, col 8 to line 60, col 22 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 60, col 8 to line 60, col 12 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 60, col 17 to line 60, col 22 of module ex1: 31
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 61, col 8 to line 61, col 44 of module ex1: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 61, col 8 to line 61, col 19 of module ex1: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 61, col 25 to line 61, col 44 of module ex1: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 91, col 67 to line 91, col 93 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 91, col 96 to line 91, col 122 of module ex1: 38
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 65 to line 94, col 116 of module ex1: 24
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 68 to line 95, col 71 of module ex1: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 68 to line 97, col 89 of module ex1: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 57 to line 98, col 60 of module ex1: 13
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 57 to line 100, col 78 of module ex1: 13
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 35 to line 101, col 38 of module ex1: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 35 to line 102, col 69 of module ex1: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 103, col 24 to line 103, col 27 of module ex1: 35
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 24 to line 104, col 58 of module ex1: 35
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<NotSolved line 63, col 1 to line 63, col 9 of module ex1>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 5 to line 65, col 24 of module ex1: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 64, col 8 to line 64, col 24 of module ex1: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 65, col 8 to line 65, col 24 of module ex1: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(12) at 2026-07-16 00:01:44: 112 states generated (7,021 s/min), 15 distinct states found (940 ds/min), 1 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+112 states generated, 15 distinct states found, 1 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 12.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 961ms at (2026-07-16 00:01:44)
+@!@!@ENDMSG 2186 @!@!@
