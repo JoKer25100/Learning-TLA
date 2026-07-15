@@ -16,11 +16,3 @@ Le tableau ci-dessous référence les différents modèles disponibles. Cliquez 
 | [`02_Nom_du_Prochain_Exercice`](./02_Nom_du_Prochain_Exercice/) | Description courte du problème | Concepts (ex: Concurrence, Deadlock, Liveness) | 🚧 En cours |
 
 ---
-
-## 🚀 Guide d'exécution
-
-Pour exécuter et vérifier ces modèles sur votre machine locale :
-
-1. Clonez ce dépôt :
-   ```bash
-   git clone [https://github.com/VotreNomUtilisateur/Methodes-Formelles-TLA.git](https://github.com/VotreNomUtilisateur/Methodes-Formelles-TLA.git)
