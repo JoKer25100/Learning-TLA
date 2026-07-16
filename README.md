@@ -13,6 +13,6 @@ Le tableau ci-dessous référence les différents modèles disponibles. Cliquez 
 | Dossier | Sujet Modélisé | Concepts Algorithmiques Abordés | Statut |
 | :--- | :--- | :--- | :---: |
 | [`01_Missionnaires_Cannibales`](./01_Missionnaires_Cannibales/) | Le puzzle des Missionnaires et Cannibales | Gardes de transition, Invariants de sécurité, Génération de trace d'erreur pour résolution | ✅ Terminé |
-| [`02_Nom_du_Prochain_Exercice`](./02_Nom_du_Prochain_Exercice/) | Description courte du problème | Concepts (ex: Concurrence, Deadlock, Liveness) | 🚧 En cours |
+| [`02_Cabbage_Goat_Wolf`](./02_Cabbage_Goat_Wolf/) | Le problème du Loup, de la Chèvre et du Chou | Modélisation ensembliste/booléenne, Contraintes d'exclusion mutuelle, Automate à états finis | ✅ Terminé |
 
 ---

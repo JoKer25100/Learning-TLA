@@ -1,0 +1,58 @@
+strict digraph DiskGraph {
+node [shape=box,style=rounded]
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-4207617548232144842 [label="pos = [goat |-> FALSE, wolf |-> FALSE, farmer |-> FALSE, cabbage |-> FALSE]",style = filled]
+-4207617548232144842 -> 1510395872804091767 [label="Next",color="2",fontcolor="2"];
+1510395872804091767 [label="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> TRUE, cabbage |-> FALSE]",tooltip="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> TRUE, cabbage |-> FALSE]"];
+-4207617548232144842 -> -4207617548232144842 [label="Next",color="2",fontcolor="2"];
+-4207617548232144842 -> -4207617548232144842 [label="Next",color="2",fontcolor="2"];
+-4207617548232144842 -> -4207617548232144842 [label="Next",color="2",fontcolor="2"];
+1510395872804091767 -> -4207617548232144842 [label="Next",color="2",fontcolor="2"];
+1510395872804091767 -> 1510395872804091767 [label="Next",color="2",fontcolor="2"];
+1510395872804091767 -> 1510395872804091767 [label="Next",color="2",fontcolor="2"];
+1510395872804091767 -> 9102967185737519026 [label="Next",color="2",fontcolor="2"];
+9102967185737519026 [label="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> FALSE, cabbage |-> FALSE]",tooltip="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> FALSE, cabbage |-> FALSE]"];
+9102967185737519026 -> 9102967185737519026 [label="Next",color="2",fontcolor="2"];
+9102967185737519026 -> 3991511545641441245 [label="Next",color="2",fontcolor="2"];
+3991511545641441245 [label="pos = [goat |-> TRUE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> FALSE]",tooltip="pos = [goat |-> TRUE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> FALSE]"];
+9102967185737519026 -> 3200526057816008635 [label="Next",color="2",fontcolor="2"];
+3200526057816008635 [label="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> TRUE, cabbage |-> TRUE]",tooltip="pos = [goat |-> TRUE, wolf |-> FALSE, farmer |-> TRUE, cabbage |-> TRUE]"];
+9102967185737519026 -> 1510395872804091767 [label="Next",color="2",fontcolor="2"];
+3991511545641441245 -> -1870900739693582180 [label="Next",color="2",fontcolor="2"];
+-1870900739693582180 [label="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> FALSE, cabbage |-> FALSE]",tooltip="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> FALSE, cabbage |-> FALSE]"];
+3991511545641441245 -> 9102967185737519026 [label="Next",color="2",fontcolor="2"];
+3991511545641441245 -> 3991511545641441245 [label="Next",color="2",fontcolor="2"];
+3991511545641441245 -> 3991511545641441245 [label="Next",color="2",fontcolor="2"];
+3200526057816008635 -> -214195495925884678 [label="Next",color="2",fontcolor="2"];
+-214195495925884678 [label="pos = [goat |-> FALSE, wolf |-> FALSE, farmer |-> FALSE, cabbage |-> TRUE]",tooltip="pos = [goat |-> FALSE, wolf |-> FALSE, farmer |-> FALSE, cabbage |-> TRUE]"];
+3200526057816008635 -> 3200526057816008635 [label="Next",color="2",fontcolor="2"];
+3200526057816008635 -> 9102967185737519026 [label="Next",color="2",fontcolor="2"];
+3200526057816008635 -> 3200526057816008635 [label="Next",color="2",fontcolor="2"];
+-1870900739693582180 -> 3991511545641441245 [label="Next",color="2",fontcolor="2"];
+-1870900739693582180 -> -1870900739693582180 [label="Next",color="2",fontcolor="2"];
+-1870900739693582180 -> -5460745787323367275 [label="Next",color="2",fontcolor="2"];
+-5460745787323367275 [label="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> TRUE]",tooltip="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> TRUE]"];
+-1870900739693582180 -> -1870900739693582180 [label="Next",color="2",fontcolor="2"];
+-214195495925884678 -> 3200526057816008635 [label="Next",color="2",fontcolor="2"];
+-214195495925884678 -> -5460745787323367275 [label="Next",color="2",fontcolor="2"];
+-214195495925884678 -> -214195495925884678 [label="Next",color="2",fontcolor="2"];
+-214195495925884678 -> -214195495925884678 [label="Next",color="2",fontcolor="2"];
+-5460745787323367275 -> -5460745787323367275 [label="Next",color="2",fontcolor="2"];
+-5460745787323367275 -> -214195495925884678 [label="Next",color="2",fontcolor="2"];
+-5460745787323367275 -> -1870900739693582180 [label="Next",color="2",fontcolor="2"];
+-5460745787323367275 -> -2407818564846651312 [label="Next",color="2",fontcolor="2"];
+-2407818564846651312 [label="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> FALSE, cabbage |-> TRUE]",tooltip="pos = [goat |-> FALSE, wolf |-> TRUE, farmer |-> FALSE, cabbage |-> TRUE]"];
+-2407818564846651312 -> 1150738903106389777 [label="Next",color="2",fontcolor="2"];
+1150738903106389777 [label="pos = [goat |-> TRUE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> TRUE]",tooltip="pos = [goat |-> TRUE, wolf |-> TRUE, farmer |-> TRUE, cabbage |-> TRUE]"];
+{rank = same; -4207617548232144842;}
+{rank = same; 1510395872804091767;}
+{rank = same; 9102967185737519026;}
+{rank = same; 3991511545641441245;3200526057816008635;}
+{rank = same; -214195495925884678;-1870900739693582180;}
+{rank = same; -5460745787323367275;}
+{rank = same; -2407818564846651312;}
+}
+}
