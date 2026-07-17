@@ -1,0 +1,148 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2026.07.15.134331 (rev: 227f61b)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 37 and seed -5241902878066140032 with 1 worker on 16 cores with 1735MB heap and 64MB offheap memory [pid: 76336] (Linux 6.18.33.2-microsoft-standard-WSL2 amd64, Ubuntu 11.0.30 64bit, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/eric/TLA/github/Learning-TLA/03_Coffee_Can_Puzzle/ex3.tla
+Parsing file /tmp/tlc-8903444630171778154/TLC.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-8903444630171778154/Integers.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file /tmp/tlc-8903444630171778154/_TLCTrace.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-8903444630171778154/Naturals.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-8903444630171778154/Sequences.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-8903444630171778154/FiniteSets.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-8903444630171778154/TLCExt.tla (jar:file:/home/eric/.vscode-server/extensions/tlaplus.vscode-ide-2026.7.151358/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module ex3
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module ex3
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2026-07-17 03:29:13)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2026-07-17 03:29:13.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.0E-16
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2026-07-17 03:29:13 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<pc line 39, col 11 to line 39, col 12 of module ex3>: 2
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<sac line 39, col 15 to line 39, col 17 of module ex3>: 82
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 52, col 1 to line 52, col 4 of module ex3>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 53, col 9 to line 54, col 25 of module ex3: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Iterate line 56, col 1 to line 56, col 7 of module ex3>: 80:238
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 15 to line 56, col 28 of module ex3: 161
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 56, col 15 to line 56, col 16 of module ex3: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 18 to line 57, col 34 of module ex3: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 31 to line 59, col 50 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 46, col 5 to line 47, col 21 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 46, col 8 to line 46, col 15 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 47, col 8 to line 47, col 21 of module ex3: 222
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 59, col 40 to line 59, col 42 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 59, col 45 to line 59, col 49 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 42 to line 60, col 50 of module ex3: 194
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 47 to line 61, col 90 of module ex3: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 62, col 47 to line 62, col 84 of module ex3: 129
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 36 to line 64, col 48 of module ex3: 43
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 39 to line 58, col 42 of module ex3: 79
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 26 to line 65, col 40 of module ex3: 237
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 23 to line 67, col 35 of module ex3: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 70, col 1 to line 70, col 11 of module ex3>: 0:1
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 16 to line 70, col 26 of module ex3: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 70, col 16 to line 70, col 17 of module ex3: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 31 to line 70, col 44 of module ex3: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<ParityInvariant line 42, col 1 to line 42, col 15 of module ex3>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 5 to line 43, col 24 of module ex3: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(21) at 2026-07-17 03:29:13: 240 states generated (8,818 s/min), 81 distinct states found (2,976 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+240 states generated, 81 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 21.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 2 and the 95th percentile is 2).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 1639ms at (2026-07-17 03:29:13)
+@!@!@ENDMSG 2186 @!@!@
