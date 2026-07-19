@@ -14,5 +14,6 @@ Le tableau ci-dessous référence les différents modèles disponibles. Cliquez 
 | :--- | :--- | :--- | :---: |
 | [`01_Missionnaires_Cannibales`](./01_Missionnaires_Cannibales/) | Le puzzle des Missionnaires et Cannibales | Gardes de transition, Invariants de sécurité, Génération de trace d'erreur pour résolution | ✅ Terminé |
 | [`02_Cabbage_Goat_Wolf`](./02_Cabbage_Goat_Wolf/) | Le problème du Loup, de la Chèvre et du Chou | Modélisation ensembliste/booléenne, Contraintes d'exclusion mutuelle, Automate à états finis | ✅ Terminé |
+| [`03_Coffee_Can_Puzzle`](./03_Coffee_Can_Puzzle/) | Le puzzle de la boîte de café (Coffee Can Problem) | Non-déterminisme (`either/or`), Preuve formelle d'invariant (parité), Terminaison garantie | ✅ Terminé |
 
 ---
